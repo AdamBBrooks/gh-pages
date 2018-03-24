@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="28px" height="29px" viewBox="0 0 28 29" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 44.1 (41455) - http://www.bohemiancoding.com/sketch -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Logo" transform="translate(-4.000000, -3.000000)">
+            <g id="Group">
+                <circle id="Oval" cx="18" cy="18" r="18"></circle>
+                <g id="Group-6" transform="translate(5.000000, 4.000000)" stroke-width="0.75" stroke="#202020">
+                    <polyline id="Path-4" points="0.031532988 24.5099449 11.1988455 0.0940043821 14.6427973 0.0940043821 25.9757944 24.7516966 24.5734391 27.403135 21.2525832 27.403135 18.6987753 21.4863362 7.99146239 21.4863362 5.1292711 27.403135 1.85753715 27.403135 0.0196803359 24.6829841 3.27940037 24.6746305 5.97459491 18.7757562 17.2766747 18.7757562 13.2259077 10.0671998 14.8421695 6.7013524 24.361022 27.1399738"></polyline>
+                    <path d="M3.32708445,24.6423169 L5.14117926,27.3436339" id="Path-5"></path>
+                    <polyline id="Path-6" points="15.8952617 15.9388011 7.27821139 15.9388011 14.623443 0.114774471"></polyline>
+                    <path d="M13.2246063,10.05204 L10.5394138,15.8143027" id="Path-7"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

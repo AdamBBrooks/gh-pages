@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="120px" height="120px" viewBox="0 0 120 120" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 44.1 (41455) - http://www.bohemiancoding.com/sketch -->
+    <title>ic-ixd</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linejoin="round">
+        <g id="ic-ixd" stroke="#202020" stroke-width="1.5">
+            <g id="Group-2" transform="translate(2.000000, 23.000000)">
+                <g id="Userinterface_bookmarks" transform="translate(25.027289, 35.991625) scale(1, -1) translate(-25.027289, -35.991625) translate(0.000000, 0.953421)" stroke-linecap="round">
+                    <g id="Group">
+                        <path d="M49.2600604,61.972334 L6.35613682,61.972334 C2.86026157,61.972334 0,59.1120724 0,55.6161972 L0,6.35613682 C0,2.86026157 2.86026157,0 6.35613682,0 L49.2600604,0 L49.2600604,61.972334 Z" id="Shape"></path>
+                        <path d="M31.7806841,0 L31.7806841,60.3832998" id="Shape"></path>
+                        <path d="M38.1368209,0 L38.1368209,61.972334" id="Shape"></path>
+                    </g>
+                    <polyline id="Shape" points="19.0684105 63.5613682 19.0684105 69.917505 15.8903421 66.7394366 12.7122736 69.917505 12.7122736 63.5613682"></polyline>
+                </g>
+                <g id="Design_pencil" transform="translate(66.156618, 46.258524) scale(1, -1) rotate(-45.000000) translate(-66.156618, -46.258524) translate(43.731618, 23.833524)">
+                    <g id="Group" transform="translate(0.000000, 0.000000)">
+                        <g transform="translate(3.345257, 0.000000)" id="Shape">
+                            <path d="M0.479174853,32.9260522 L32.5554649,0.849762201 C32.9772581,0.427971164 33.6611159,0.427971164 34.0829134,0.849762201 L40.1926753,6.95952402 C40.6144685,7.38131505 40.6144685,8.06517505 40.1926753,8.48696177 L8.11638522,40.5632518 C7.69459311,40.9850407 7.01073419,40.9850407 6.58894747,40.5632518 L0.479185654,34.4534792 C0.0573946177,34.0316903 0.0573946177,33.3478282 0.479185654,32.9260414 L0.479174853,32.9260522 Z"></path>
+                        </g>
+                        <polyline id="Shape" points="9.93420041 40.5632842 0.00582800506 44.381884 3.82442779 34.4535116"></polyline>
+                    </g>
+                    <path d="M40.4778684,3.90983282 L7.64391323,36.743788" id="Shape"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
