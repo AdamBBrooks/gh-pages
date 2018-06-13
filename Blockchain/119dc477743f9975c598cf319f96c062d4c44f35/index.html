@@ -1,25 +1,89 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <title>Code Along</title>
-</head>
-<body>
-  <div id="font-color">Change my font color!</div>
-  <div id="background">Change my background color!</div>
-  <div id="background-font-color">Change my background <em>and</em> text color!</div>
-  <div id="hide-me">Hide me!</div>
-  <div id="show" style="display: none;">Show me!</div>
-  <div id="slide-down" style="display: none;">Show me by sliding me down!</div>
-  <div id="slide-up">Hide me by sliding me up!</div>
-  <div id="fade-out">Hide me by fading me out!</div>
-  <div id="fade-in" style="display: none">Show me by fading me in!</div>
-  <div>
-    <input type="text" id="text-input" value="Take my value">
-    <input type="text" id="text-input-2" value="Put that value in here!!">
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta charset="utf-8">
+    <meta content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" name="viewport">
+    <meta property="og:url" content="http://journal.claudiovallejo.mx">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Product Design Exercise">
+<meta property="og:description" content="A product design exercise exploring the design of a product that helps people find the best fuel prices in the US.">
+<meta property="og:image" content="http://q.claudiovallejo.mx/images/social/index-og.jpg">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@claudiovallejop">
+<meta name="twitter:title" content="Product Design Exercise">
+<meta name="twitter:description" content="A product design exercise exploring the design of a product that helps people find the best fuel prices in the US.">
+<meta name="twitter:image" content="http://q.claudiovallejo.mx/images/social/index-twitter.jpg">
+    <link rel="apple-touch-icon" sizes="60x60" href="http://q.claudiovallejo.mx/images/meta/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="http://q.claudiovallejo.mx/images/meta/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="http://q.claudiovallejo.mx/images/meta/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="http://q.claudiovallejo.mx/images/meta/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="http://q.claudiovallejo.mx/images/meta/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="http://q.claudiovallejo.mx/images/meta/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="http://q.claudiovallejo.mx/images/meta/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="http://q.claudiovallejo.mx/images/meta/apple-touch-icon-180x180.png">
+    <link rel="icon" sizes="16x16" href="http://q.claudiovallejo.mx/images/meta/icon-16x16.png">
+    <link rel="icon" sizes="32x32" href="http://q.claudiovallejo.mx/images/meta/icon-32x32.png">
+    <link rel="icon" sizes="96x96" href="http://q.claudiovallejo.mx/images/meta/icon-96x96.png">
+    <link rel="icon" sizes="192x192" href="http://q.claudiovallejo.mx/images/meta/icon-192x192.png">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="http://journal.claudiovallejo.mx/images/meta/apple-touch-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+<link rel="shortcut icon" type="image/x-icon" href="http://q.claudiovallejo.mx/favicon.ico">
+<link rel="icon" type="image/x-icon" href="http://q.claudiovallejo.mx/favicon.ico">
+
+    <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-88097903-3', 'auto');
+  ga('send', 'pageview');
+</script>
+
+    <title>Product Design Exercise | Product Design Exercise</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700|Roboto+Mono:300,400" rel="stylesheet">
+    <link href="/stylesheets/site.css" rel="stylesheet">
+  </head>
+  <body>
+    <nav class="w-100 pv1 bg-white bb b--light-gray">
+  <div class="mw60 center cf ph1 ph0-l overflow-x-auto overflow-y-hidden os-touch sd-none nowrap">
+    <div class="dib fn fl-ns">
+      <a class="js-link function-eio duration0_25 property-color lato f1 fw7 ls0_05 td-none black" href="/">Design Exercise</a>
+    </div>
+    <div class="dib fn fr-ns">
+        <a class="js-link function-eio duration0_25 property-color pl2 pl0-ns lato f1 fw4 td-none dark-gray" href="/case-study">Case Study</a>
+        <a class="js-link function-eio duration0_25 property-color pl1 lato f1 fw4 td-none dark-gray" href="/posts">Posts</a>
+        <a class="js-link function-eio duration0_25 property-color pl1 lato f1 fw4 td-none dark-gray" href="/about">About</a>
+        <a class="js-link function-eio duration0_25 property-color pl1 pr1 pr0-ns lato f1 fw4 td-none dark-gray" href="/contact">Contact</a>
+    </div>
   </div>
-  <div id="animate">Slide me 100px to the right</div>
-  <div id="animate-2">Slide me 200px to the right and 400px down</div>
-  <script src="js/jquery.js"></script>"
-  <script src="js/app.js"></script>"
-</body>
+</nav>
+
+    <main class="mb4">
+  <header class="mw45 center mv4 ph1 ph0-l bb b--light-gray">
+      <p class="ma0 mb1 lato f1 fw4 dark-gray">Managed by Q</p>
+
+    <h1 class="ma0 mb2 lato f2 fw4">Product Design Exercise</h1>
+
+        <div class="mw45 center mb2">
+          <p class="ma0 lato f1_125 fw3 black lh1_75">Thank you for the opportunity to work on this assignment—I had a lot of fun designing the product and learning about how gas consumers select gas stations.</p>
+        </div>
+        <div class="mw45 center mb4">
+          <p class="ma0 lato f1_125 fw3 black lh1_75">I've built a website that not only shows the end result of the design exercise but it also dives into the research and the process behind the result. I documented my experience because I want to share the learnings that influenced the product's design and also because one of my main goals as a designer is to become a better writer and a better thinker.</p>
+        </div>
+  </header>
+      <div class="mw45 center ph1 ph0-l">
+  <a class="js-card function-cb duration0_25 property-background-color db w-100 mb2 pa2 no-underline bg-white ba b--light-gray br0_125" href="/case-study">
+    <h3 class="lato f1 fw4 dark-gray ma0 mb1">Case Study</h3>
+    <h1 class="lato f1_5 fw4 black ma0 mb1">Finding the Best Fuel Price</h1>
+    <p class="lato f1_125 lh1_5 fw3 black ma0 mb1">A look into the research that guided the design of a product that helps people find the best fuel prices in the US</p>
+      <img class="w-100" srcset="/images/heroes/case-study@2x.png 2x" src="/images/heroes/case-study@1x.png" alt="Sample case study card hero.">
+  </a>
+</div>
+
+</main>
+
+    <script src="/javascripts/site.js"></script>
+  </body>
 </html>
