@@ -1,7 +1,7 @@
+
 <!doctype html>
 <html lang="en">
  <!DOCTYPE html>
-<html lang="en" class="js flexbox flexboxlegacy canvas canvastext webgl no-touch geolocation postmessage websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers applicationcache svg inlinesvg smil svgclippaths wf-districtpro-n7-active wf-districtpro-n4-active wf-capitoliumnews2-n4-active wf-active">
 <head>
   <title>Adam Brooks, Product Designer</title>
   <link rel="manifest" href="/manifest.json">
@@ -11,6 +11,7 @@
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/styles.css">
   <link rel="stylesheet" href="./css/main.min.css" type="text/css">
+  <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Cabin" />
   <script src="https://use.typekit.net/zsy4egz.js"></script>
   <script>try{Typekit.load({ async: true });}catch(e){}</script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
@@ -19,23 +20,144 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <meta name="robots" content="all,index,follow" />
   <meta name="google-site-verification" content="BooiOIK9cyN8MRwrKnv-EuypFHxehFfX4yZK9CAB9M0" />
+</head>
+
+<style>
+
+
+
+body {
+	background-image: url('41.png');
+	background-attachment: fixed;
+}
+
+.box {
+	border-radius: 1px;
+	background: rgba(255, 255, 255, 0.2); margin: auto; padding: 12px;
+}
+
+.lightbox {
+	zoom: 1.5;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	margin: auto;
+	
+}
+
+div.horizontal {
+	display: flex;
+	justify-content: left;
+	height: 100%;
+}
+
+div.vertical {
+	display: flex;
+	flex-direction: column;
+	justify-content: left;
+	width: 100%;
+}
+
+::-webkit-input-placeholder {
+   color: rgba(255, 255, 255, 0.5);
+   text-align: left;
+}
+
+::-moz-placeholder {  
+   color: rgba(255, 255, 255, 0.5);
+   text-align: left;
+}
+
+:-ms-input-placeholder {  
+   color: rgba(255, 255, 255, 0.5);
+   text-align: left;
+}
+
+</style>
 
 <body>
+	
 
-<section id="about">
+	<div id="loginbox" class="lightbox" >
+		<div class="horizontal">
+			<div class="vertical">
+				<div class="box">
+					<input style="height: 25px; line-height:25px; margin: 15px; text-align: left; border-width: 0; font-size: 14px; line-height: 1.5; border-radius: 0px; background: none; outline: 0; border-bottom: 1px solid #FFF;
+		 			font-family: Cabin;" id="password" type="password" placeholder="password" /> <br />
+					<button id="loginbutton" type="button" style="
+					height: 30px; 
+					line-height:30px; 
+					margin: 15px;
+					width: 145px;
+					text-align: center;  
+					border-width: 0; 
+					font-size: 12px; 
+					text-transform: uppercase;
+					border-radius: 5px; 
+					background-color: rgba(255, 255, 255, 0.5);
+					outline: 0; 
+		 			font-family: Cabin;
+    				color: white;">Enter</button>
 
-  <div class="container">
-    <div class="jumbotron">
-      <h2>Blockchain Design Exercise</h2>
-      <p>Thank you for the opportunity to work on this assignment—I had a lot of fun designing the product and learning about how gas consumers select gas stations.</p>
-      <p>I've built a website that not only shows the end result of the design exercise but it also dives into the thinking and the process behind the result. I've documented my experience to share the learnings that influenced the product's design and to give you insight into my design choices.</p>
-    </div>
-    <div class="jumbotron">
-       <p>This is some text. <img src="Blockchain-BCH.gif" alt="Smiley face" align="middle"> This is some text.</p>
-    </div>
-  </div>  
+					<p id="wrongPassword" style="display: none; color: rgba(255, 68, 101, 0.5);">wrong password</p>
+				</div>
+			</div>
+		</div>
+	</div>
 
-</section>
+
+
+	<script type="text/javascript" src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+	 
+
+	 <script type="text/javascript" src="https://cdn.rawgit.com/chrisveness/crypto/master/sha1.js"></script>
+
+	<script type="text/javascript">
+	"use strict";
+
+
+	function loadPage(pwd) {
+		
+		var hash= pwd;
+		hash= Sha1.hash(pwd);
+		var url= hash + "/index.html";
+			
+		$.ajax({
+			url : url,
+			dataType : "html",
+			success : function(data) {
+
+				window.location= url;
+
+			},
+			error : function(xhr, ajaxOptions, thrownError) {
+			
+
+				parent.location.hash= hash;
+
+				//$("#wrongPassword").show();
+				$("#password").attr("placeholder","wrong password");
+				$("#password").val("");
+			}
+		});
+	}
+
+	 
+	$("#loginbutton").on("click", function() {
+		loadPage($("#password").val());
+	});
+	$("#password").keypress(function(e) {
+		if (e.which == 13) {
+			
+			loadPage($("#password").val());
+		}
+	});
+	$("#password").focus();
+		
+	</script>
 
 </body>
 </html>
