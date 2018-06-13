@@ -80,24 +80,13 @@ div.vertical {
 
 <body>
 	
+
 	<div id="loginbox" class="lightbox" >
 		<div class="horizontal">
 			<div class="vertical">
-				<div class="box">				
-					<input style="
-					height: 25px; 
-					line-height:25px; 
-					margin: 15px; 
-					text-align: left; 
-					border-width: 0; 
-					font-size: 14px; 
-					line-height: 1.5; 
-					border-radius: 0px; 
-					background: none;
-					outline: 0; 
-					border-bottom: 1px solid #FFF;
-		 			font-family: Cabin;
-					password" type="password" placeholder="password" /> <br />
+				<div class="box">
+					<input style="height: 25px; line-height:25px; margin: 15px; text-align: left; border-width: 0; font-size: 14px; line-height: 1.5; border-radius: 0px; background: none; outline: 0; border-bottom: 1px solid #FFF;
+		 			font-family: Cabin;" id="password" type="password" placeholder="password" /> <br />
 					<button id="loginbutton" type="button" style="
 					height: 30px; 
 					line-height:30px; 
@@ -111,23 +100,20 @@ div.vertical {
 					background-color: rgba(255, 255, 255, 0.2);
 					outline: 0; 
 		 			font-family: Cabin;
-    				color: white;>Enter</button>
+    				color: white;">Enter</button>
 
-					<p id="wrongPassword" style="
-					font-size: 2px; 
-					font-family: Cabin;
-					color: red;
-					display: none">wrong password</p>
+					<p id="wrongPassword" style="display: none">wrong password</p>
 				</div>
 			</div>
 		</div>
 	</div>
 
 
+
 	<script type="text/javascript" src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
 	 
 
-	 <script type="text/javascriptf" src="https://cdn.rawgit.com/chrisveness/crypto/master/sha1.js"></script>
+	 <script type="text/javascript" src="https://cdn.rawgit.com/chrisveness/crypto/master/sha1.js"></script>
 
 	<script type="text/javascript">
 	"use strict";
