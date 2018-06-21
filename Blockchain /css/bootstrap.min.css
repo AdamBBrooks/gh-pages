@@ -1087,7 +1087,7 @@ html {
     overflow-x: hidden;
 }
 body {
-    font-size: 13px;
+    font-size: 20px;
     line-height: 1.5;
     background-color: #ffffff
 }
@@ -1280,7 +1280,7 @@ h2,
 .h2 {
     font-family: "soleil",sans-serif;
     font-weight: 500;
-    font-size: 42px;
+    font-size: 30px;
     letter-spacing: 1px;
     line-height: 1.2;
     margin-bottom: 30px;
@@ -5010,12 +5010,12 @@ a.badge:focus {
 }
 
 .jumbotron p {
-    font-size: 20px;
+    font-size: 18px;
     vertical-align: top;
-    color: #202020;
+    color: rgba(32, 32, 32, .7);
     font-family: "soleil",sans-serif;
-    font-weight: 300;
-    line-height: 30px;
+    font-weight: 200;
+    line-height: 2;
     margin-top: 16px;
     margin-bottom: 3p;x
 }
