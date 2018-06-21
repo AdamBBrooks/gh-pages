@@ -5015,7 +5015,7 @@ a.badge:focus {
     color: rgba(32, 32, 32, .7);
     font-family: "soleil",sans-serif;
     font-weight: 200;
-    line-height: 30px;
+    line-height: 2;
     margin-top: 16px;
     margin-bottom: 3p;x
 }
