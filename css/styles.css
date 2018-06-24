@@ -95,7 +95,7 @@ header p {text-align: center;}
 
 #work {
   position: relative;
-  background: #f2f2f2;
+  background: #F9FCFE;
   width: 100%;
   display: table;
 }
@@ -116,8 +116,7 @@ header p {text-align: center;}
 
 #what {
   position: relative;
-  background: url(../img/42.png) no-repeat center center;
-  background-color: #FFF;
+  background-color: #F9FCFE;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
