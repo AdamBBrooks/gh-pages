@@ -1,5 +1,6 @@
 
 
+
 @media(max-width: 4000px) {
   #overlay p {
     margin: 24px auto;
@@ -84,7 +85,7 @@ header p {text-align: center;}
 
 #hero {
   position: relative;
-  background: url(../img/41.png) no-repeat center center;
+  background: url(../img/Header.png) no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -102,7 +103,7 @@ header p {text-align: center;}
 
 #about {
   position: relative;
-  background-color: #EEABA0;
+  background: url(../img/Header.png) no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -529,4 +530,3 @@ Social Icons
 .social-icons .fa-linkedin,.social-icons .fa-linkedin-square{color:#FFF; font-size:20px;} 
 .social-icons .fa-pinterest,.social-icons .fa-pinterest-square{color:#FFF; font-size:20px;} 
 .social-icons .fa-twitter,.social-icons .fa-twitter-square{color:#FFF; font-size:20px;} 
-.
