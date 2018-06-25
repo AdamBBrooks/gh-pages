@@ -1,6 +1,5 @@
 
 
-
 @media(max-width: 4000px) {
   #overlay p {
     margin: 24px auto;
@@ -107,11 +106,9 @@ header p {text-align: center;}
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover;
+  background-position: center;
+  display: table;
   width: 100%;
-  padding-left: 20px;
-  padding-right: 20px;
-  text-align: left;
 }
 
 
